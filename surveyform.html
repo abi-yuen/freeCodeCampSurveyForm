@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+
+<title>Survey Form</title>
+
+<style>
+
+</style>
+
+
+</head>
+
+<body>
+
+    <h1 id="title">Survey Form<h1>
+    
+    <p id="description">Let us know how we can improve freeCodeCamp<p>
+    <form id="survey-form">
+        <label id="name-label">Name<input id="name" type="text" placeholder="name" required></label>
+        <label id="email-label">Email<input id="email" type="email" placeholder="email" required></label>
+        <label id="number-label">Age<input id="number" type="number" placeholder="number" min="1" max="5" required>
+                    
+        <p>Which option best describes your current role?<p>
+        <select id="dropdown">
+        <option value="student">Student</option>
+        <option value="fulltimejob">full time job</option>
+                    <option value="fulltimelearner">full time learner</option>
+                    <option value="prefernottosay">prefer not to say</option>
+                    <option value="other">other</option>
+                  
+                    <p>How likely is it that you would recommend freeCodeCamp to a friend<p>
+                    <label><input type="radio" name="recommend" value="definitely">Definitely</label>
+                      <label><input type="radio" name="recommend" value="maybe">Maybe</label>
+                      <label><input type="radio" name="recommend" value="notsure">Not Sure</label>
+                    
+                    <p>What do you like most in FCC?</p>
+                     <select id="dropdown">
+                    <option value="challenges">Challenges</option>
+                    <option value="projects">Projects</option>
+                    <option value="community">Community</option>
+                    <option value="opensource">Open Source</option>
+                    </select>
+                    
+                   
+                        <p>Things that should be improved in the future (Check all that apply)</p>
+                    <label><input type="checkbox"         value="frontendprojects">Front-end Projects</label>
+                    <label><input type="checkbox" value="backendprojects">Back-end Projects</label>
+                    <label><input type="checkbox" value="datavisualisation">Data Visualisation</label>
+                    <label><input type="checkbox" value="challenges">Challenges</label>
+                    <label><input type="checkbox" value="opensourcecommunity">Open Source Community</label>
+                    <label><input type="checkbox" value="Gitter help rooms">Gitter help rooms</label>
+                    <label><input type="checkbox" value="videos">Videos</label>
+                    <label><input type="checkbox" value="citymeetups">City Meetups</label>
+                    <label><input type="checkbox" value="Wiki">Wiki</label>
+                    <label><input type="checkbox" value="forum">Forum</label>
+                    <label><input type="checkbox" value="additionalcourses">Additional Course</label>
+                       
+                       <p>Any Comments or Suggestions?<p>
+                       <textarea>
+                         Enter your comments here
+                       </textarea>
+                       <button id="submit" type="submit">Submit</button>
+                </form>
+
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+</body>
+
+</html>
